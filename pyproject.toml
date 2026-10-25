@@ -1,0 +1,25 @@
+[project]
+name = "24127441"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=5.1.0",
+    "imbalanced-learn>=0.14.2",
+    "matplotlib>=3.11.2",
+    "missingno>=0.5.2",
+    "nltk>=3.10.4",
+    "numpy>=2.4.6",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+    "wordcloud>=1.9.6",
+]
+
+[dependency-groups]
+dev = [
+    "ghp-import>=2.1.0",
+    "ipykernel>=7.4.0",
+    "jupyter-book>=2.1.7",
+]
